@@ -4,7 +4,8 @@ This folder contains all my relavant projects I have developed in the C++ coding
 
 -----------------------------------------------------------------------------------------------------------------
 Number Converter Console Application:
-![Screenshot 2025-04-27 124138](https://github.com/user-attachments/assets/4344252c-5da1-4144-9494-cea4deeb3e4a)
+-----------------------------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/57628751-19f2-45c9-8693-af52fb8194f3)
 
 -----------------------------------------------------------------------------------------------------------------
 Weapon Inventory System Console Application:
