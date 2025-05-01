@@ -13,4 +13,7 @@ Weapon Inventory System Console Application:
 ![image](https://github.com/user-attachments/assets/06a84b33-221b-4f23-863f-767ba7faeb53)
 ![image](https://github.com/user-attachments/assets/0bc1436e-2a6e-43ca-acff-cba969d37de8)
 
-
+-----------------------------------------------------------------------------------------------------------------
+Student Management System Console Application:
+-----------------------------------------------------------------------------------------------------------------
+![Student Management System 1](https://github.com/user-attachments/assets/002da6bf-943f-403a-a313-05a03463abed)
