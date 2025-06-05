@@ -10,8 +10,16 @@ Number Converter Console Application:
 -----------------------------------------------------------------------------------------------------------------
 Weapon Inventory System Console Application:
 -----------------------------------------------------------------------------------------------------------------
-![image](https://github.com/user-attachments/assets/06a84b33-221b-4f23-863f-767ba7faeb53)
-![image](https://github.com/user-attachments/assets/0bc1436e-2a6e-43ca-acff-cba969d37de8)
+This is a C++ project that I have been working on for a couple of months. I was really interested in creating a weapons inventory system that could be helpful for keeping better track of equipment for military purposes or for a store inventory system. This console application I developed has 4 main functions: **READ**, **ADD**, **REMOVE**, **UPDATE**. I wanted to create an application that would allow users to take data from mySQL Workbench into this application for those to edit the file and then be able to reupload it to their workbench! This was a bit of a passion project because I took the time to do research on the best ways to go about approaching this. This also really helped me develop better problem solving skills and to further my skills as a C++ developer!
+
+![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5f0fb096-61b0-4712-b80c-9fedf48a0d29)
+
+Features:
+
+- READ allows the user to view/display data from a data file for review to see the invetory list.
+- ADD allows the user to add new data to a copy data file that can be updated to the main file.
+- Remove allows the user to remove data from the inventory file that can be updated to the main file.
+- Update allows the user to update the main data file from the copy inventory data file.
 
 -----------------------------------------------------------------------------------------------------------------
 Student Management System Console Application:
