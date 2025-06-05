@@ -274,6 +274,10 @@ void Commands::Transfer_Data(std::string filename)
 
             out_File.open("..\\..\\..\\..\\Documents\\" + filename);
 
+            for (std::string a : vec) {
+                out_File << a << std::endl;
+            }
+
             Display_Data(filename);
             std::cout << "[ FILE :: UPDATE COMPLETE]" << std::endl;
             vec.erase(vec.begin(), vec.end());
