@@ -16,10 +16,10 @@ This is a C++ project that I have been working on for a couple of months. I was 
 
 Features:
 
-- **READ** allows the user to view/display data from a data file for review to see the invetory list.
-- **ADD** allows the user to add new data to a copy data file that can be updated to the main file.
-- **Remove** allows the user to remove data from the inventory file that can be updated to the main file.
-- **Update** allows the user to update the main data file from the copy inventory data file.
+- **READ** - allows the user to view/display data from a data file for review to see the invetory list.
+- **ADD** - allows the user to add new data to a copy data file that can be updated to the main file.
+- **Remove** - allows the user to remove data from the inventory file that can be updated to the main file.
+- **Update** - allows the user to update the main data file from the copy inventory data file.
 
 -----------------------------------------------------------------------------------------------------------------
 Student Management System Console Application:
