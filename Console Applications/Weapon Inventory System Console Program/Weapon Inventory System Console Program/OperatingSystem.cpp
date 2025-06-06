@@ -39,7 +39,7 @@ void OperatingSystem::MainMenu()
     std::cout << std::setw(sMain.total_width) << std::setfill('-') << "" << std::endl;
     std::cout << std::setw(sMain.total_width) << std::setfill('-') << "" << std::endl;
     std::cout << std::setfill(' ') << std::endl;
-
+    
     //Print out all the commands options
     std::vector<std::string> cmd_Array{ sMain.command_STR1 ,sMain.command_STR2 ,sMain.command_STR3 ,sMain.command_STR4, sMain.command_STR5 };
     for (size_t i = 0; i < cmd_Array.size(); i++) {
@@ -56,42 +56,42 @@ void OperatingSystem::MainMenu()
     std::string filename{};
 
     //Main menu options
-switch (sMain.input)
-{
-case 1:
-    std::cout << "Enter a file name: "; std::cin >> filename;
-    cmd->Display_Data(filename);
-    Restart();
-    break;
-case 2:
-    std::cout << "Enter a file name: "; std::cin >> filename;
-    cmd->AddNewData(filename);
-    Restart();
-    break;
-case 3:
-    std::cout << "Enter a file name: "; std::cin >> filename;
-    cmd->Remove_Data(filename);
-    Restart();
-    break;
-case 4:
-    std::cout << "Enter a file name: "; std::cin >> filename;
-    cmd->Transfer_Data(filename);
-    Restart();
-    break;
-case 5:
-    std::cout << "[SYSTEM SHUTDOWN :: COMPLETE]" << std::endl;
-    break;
-default:
-    std::cout << "[SYSTEM SHUTDOWN :: COMPLETE]" << std::endl;
-    break;
-}
+    switch (sMain.input)
+    {
+    case 1:
+        std::cout << "Enter a file name: "; std::cin >> filename;
+        cmd->Display_Data(filename);
+        Restart();
+        break;
+    case 2:
+        std::cout << "Enter a file name: "; std::cin >> filename;
+        cmd->AddNewData(filename);
+        Restart();
+        break;
+    case 3:
+        std::cout << "Enter a file name: "; std::cin >> filename;
+        cmd->Remove_Data(filename);
+        Restart();
+        break;
+    case 4:
+        std::cout << "Enter a file name: "; std::cin >> filename;
+        cmd->Transfer_Data(filename);
+        Restart();
+        break;
+    case 5:
+        std::cout << "[SYSTEM SHUTDOWN :: COMPLETE]" << std::endl;
+        break;
+    default:
+        std::cout << "[SYSTEM SHUTDOWN :: COMPLETE]" << std::endl;
+        break;
+    }
 
-if (sMain.input < 0 && sMain.input > 4)
-{
-    std::cin.clear();
-    std::cin.ignore();
-    MainMenu();
-}
+    if (sMain.input < 0 && sMain.input > 4)
+    {
+        std::cin.clear();
+        std::cin.ignore();
+        MainMenu();
+    }
 }
 
 void OperatingSystem::Restart()
