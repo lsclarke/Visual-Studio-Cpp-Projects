@@ -8,4 +8,6 @@ int main()
 {
     OperatingSystem* os = new OperatingSystem();
     os->MainMenu();
+
+    delete os;
 }
