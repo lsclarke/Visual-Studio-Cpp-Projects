@@ -18,6 +18,7 @@ Weapon Inventory System Console Application:
 This is a C++ project that I have been working on for a couple of months. I was really interested in creating a weapons inventory system that could be helpful for keeping better track of equipment for military purposes or for a store inventory system. This console application I developed has 4 main functions: **READ**, **ADD**, **REMOVE**, **UPDATE**. I wanted to create an application that would allow users to take data from mySQL Workbench into this application for those to edit the file and then be able to reupload it to their workbench! This was a bit of a passion project because I took the time to do research on the best ways to go about approaching this. This also really helped me develop better problem solving skills and to further my skills as a C++ developer!
 
 ![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5f0fb096-61b0-4712-b80c-9fedf48a0d29)
+
 https://github.com/user-attachments/assets/f5388df4-a51b-46b6-95c3-73e7588d5c92
 
 
