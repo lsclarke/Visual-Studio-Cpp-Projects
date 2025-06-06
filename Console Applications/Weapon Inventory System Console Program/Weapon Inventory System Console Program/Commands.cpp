@@ -238,7 +238,7 @@ void Commands::Remove_Data(std::string& filename)
     std::cin.get();
 }
 
-void Commands::Transfer_Data(std::string filename)
+void Commands::Transfer_Data(std::string& filename)
 {
 
     /*The Transfer_Data() function prompts the user for a file they want to update with the copy inventory data.
