@@ -19,6 +19,12 @@ This is a C++ project that I have been working on for a couple of months. I was 
 
 ![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5f0fb096-61b0-4712-b80c-9fedf48a0d29)
 
+
+
+https://github.com/user-attachments/assets/16ee5f02-9834-4c45-8097-f590748ae68c
+
+
+
 Features:
 - **User Input / Output**
 - **READ** - allows the user to view/display data from a data file for review to see the invetory list.
