@@ -30,7 +30,7 @@ public:
 	void Remove_Data(std::string& filename);
 
 	//Transfer/Copies over data that has been added to the copy file
-	void Transfer_Data(std::string filename);
+	void Transfer_Data(std::string& filename);
 	enum Weapon { Hand_Gun, Assualt_Rifle, Sniper_Rifle, Shotgun, Grenade, Motor, Artillery };
 
 	Weapon status{};
