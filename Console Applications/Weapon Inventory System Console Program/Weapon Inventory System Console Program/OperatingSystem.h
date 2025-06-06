@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef OPERATINGSYSTEM_HPP
 #define OPERATINGSYSTEM_HPP
 
@@ -52,4 +52,4 @@ public:
 
 };
 
-#endif;
+#endif
