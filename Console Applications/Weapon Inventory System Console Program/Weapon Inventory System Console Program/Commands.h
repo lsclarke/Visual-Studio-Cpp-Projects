@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef COMMANDS_HPP
 #define COMMANDS_HPP
 
@@ -51,5 +51,5 @@ public:
 
 };
 
-#endif;
+#endif
 
