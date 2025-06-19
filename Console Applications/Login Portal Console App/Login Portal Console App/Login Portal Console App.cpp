@@ -71,6 +71,7 @@ If the user enters a @gmail.com email address that would be considered valid if 
     return isValid;
 }
 
+/*This function checks to see if the data entered is within the CSV file associated with the log in system. If it is not then it will cast a error message*/
 bool isInSystem(std::string& email, std::string& password) {
     
     bool isInFile = false;
