@@ -18,7 +18,7 @@ Converter::~Converter()
    // std::cout << "Deconstructers deactivated:: " << std::hex << Count << std::endl;
 }
 
-
+//Outstream message of all the conversions
 std::ostream& operator<<(std::ostream& os, const Converter& rhs) {
     os << "--------------------------------------------" << std::endl;
     os << "Binary Format: " << std::bitset<8>{rhs.input} << std::endl;
