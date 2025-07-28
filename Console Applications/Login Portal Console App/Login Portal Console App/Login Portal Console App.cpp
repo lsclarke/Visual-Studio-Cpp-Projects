@@ -71,6 +71,11 @@ If the user enters a @gmail.com email address that would be considered valid if 
     return isValid;
 }
 
+/// <summary>
+/// This checks to see if we have already the data we input within the CSV file associated with the project in the resource folder.
+/// If so then it will fire true and the log in is a success, if not then it will fire false and the log in failed.
+/// </summary>
+
 bool isInSystem(std::string& email, std::string& password) {
     
     bool isInFile = false;
@@ -111,6 +116,10 @@ bool isInSystem(std::string& email, std::string& password) {
 
     return isInFile;
 }
+
+/// <summary>
+/// Creates a brand new account for the user and saves the data to the CSV file. It will also check to see if the user enters a valid email, checking for what type of email the user inputs.
+/// </summary>
 
 void CreateAccountSetUp_Func() {
 
