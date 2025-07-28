@@ -97,7 +97,7 @@ bool isInSystem(std::string& email, std::string& password) {
 
                 if (email == emailstringcheck) {
                     if (password == passwordstringcheck) isInFile = true;
-                    std::cout << "Log In: Success" << std::endl;
+                    std::cout << "\nLog In: Success" << std::endl;
                     break;
                 }
 
